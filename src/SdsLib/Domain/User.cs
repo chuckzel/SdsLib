@@ -12,5 +12,4 @@ public class User
     public string? Phone { get; init; } // phone (optional)
     public string? Sms { get; init; } // sms (optional)
     public string? UserNumber { get; init; } // userNumber (optional)
-    public IEnumerable<ContactRelationshipRole>? Relationships { get; init; } // relationships (optional)
 }

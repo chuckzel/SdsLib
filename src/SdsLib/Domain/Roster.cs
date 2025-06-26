@@ -9,6 +9,7 @@ public record Roster
     public IEnumerable<Enrollment>? Enrollments { get; init; }
     public IEnumerable<AcademicSession>? AcademicSessions { get; init; }
     public IEnumerable<Course>? Courses { get; init; }
+    public IEnumerable<Relationship>? Relationships { get; init; }
     public IEnumerable<Demographic>? Demographics { get; init; }
     public IEnumerable<UserFlag>? UserFlags { get; init; }
 }
