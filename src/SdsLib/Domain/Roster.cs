@@ -5,6 +5,10 @@ public record Roster
     public required IEnumerable<Org> Orgs { get; init; }
     public required IEnumerable<User> Users { get; init; }
     public required IEnumerable<Role> Roles { get; init; }
-    public required IEnumerable<Class> Classes { get; init; }
-    public required IEnumerable<Enrollment> Enrollments { get; init; }
+    public IEnumerable<Class>? Classes { get; init; }
+    public IEnumerable<Enrollment>? Enrollments { get; init; }
+    public IEnumerable<AcademicSession>? AcademicSessions { get; init; }
+    public IEnumerable<Course>? Courses { get; init; }
+    public IEnumerable<Demographic>? Demographics { get; init; }
+    public IEnumerable<UserFlag>? UserFlags { get; init; }
 }
