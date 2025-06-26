@@ -1,0 +1,37 @@
+namespace SdsLib.Domain.Enums;
+
+public enum RoleType
+{
+    Student,
+    Teacher,
+    Parent,
+    Guardian,
+    Administrator,
+    Principal,
+    Chair,
+    Professor,
+    Researcher,
+    Adjunct,
+    Affiliate,
+    OccupationalTherapist,
+    PhysicalTherapist,
+    SpeechTherapist,
+    VisionTherapist,
+    Paraprofessional,
+    SpecialServices,
+    Advisor,
+    Proctor,
+    Nurse,
+    OfficeStaff,
+    Lecturer,
+    ITAdmin,
+    Faculty,
+    Staff,
+    TeacherAssistant,
+    Assistant,
+    Instructor,
+    Substitute,
+    Coach,
+    Alumni,
+    Other
+}
