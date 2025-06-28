@@ -1,0 +1,4 @@
+﻿sourcedId,username,familyName,givenName,email,phone,sms,userNumber
+User1,teststudent,Student,Test,teststudent@email.com,123456789,9876543210,test-s1
+User2,testteacher,Teacher,Test,,,,test-t1
+User3,testparent,Parent,Test,,,,test-p1

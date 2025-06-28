@@ -1,0 +1,3 @@
+﻿userSourcedId,orgSourcedId,role,sessionSourcedIds,grade,isPrimary,roleStartDate,roleEndDate
+User1,Org1,Student,Session1,EighthGrade,True,08/01/2025 00:00:00,05/31/2026 00:00:00
+User2,Org1,Teacher,,,,,
