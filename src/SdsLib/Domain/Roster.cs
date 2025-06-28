@@ -2,7 +2,7 @@ namespace SdsLib.Domain;
 
 public record Roster
 {
-    public required IEnumerable<Org> Orgs { get; init; }
+    public required IEnumerable<Organization> Orgs { get; init; }
     public required IEnumerable<User> Users { get; init; }
     public required IEnumerable<Role> Roles { get; init; }
     public IEnumerable<Class>? Classes { get; init; }

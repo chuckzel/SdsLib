@@ -1,12 +1,7 @@
 namespace SdsLib.Domain.Enums;
 
-public enum RoleType
+public enum OrganizationRole
 {
-    Student,
-    Teacher,
-    Parent,
-    Guardian,
-    Administrator,
     Principal,
     Chair,
     Professor,
@@ -25,6 +20,8 @@ public enum RoleType
     OfficeStaff,
     Lecturer,
     ITAdmin,
+    Administrator,
+    Teacher,
     Faculty,
     Staff,
     TeacherAssistant,
@@ -33,5 +30,6 @@ public enum RoleType
     Substitute,
     Coach,
     Alumni,
+    Student,
     Other
 }

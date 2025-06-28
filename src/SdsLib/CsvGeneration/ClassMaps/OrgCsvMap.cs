@@ -3,7 +3,7 @@ using SdsLib.Domain;
 
 namespace SdsLib.CsvGeneration.ClassMaps;
 
-public class OrgCsvMap : ClassMap<Org>
+public class OrgCsvMap : ClassMap<Organization>
 {
     public OrgCsvMap()
     {

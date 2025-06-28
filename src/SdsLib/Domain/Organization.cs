@@ -2,7 +2,7 @@ namespace SdsLib.Domain;
 
 using SdsLib.Domain.Enums;
 
-public class Org
+public class Organization
 {
     public required string SourcedId { get; init; } // sourcedId (required)
     public required string Name { get; init; } // name (required)
